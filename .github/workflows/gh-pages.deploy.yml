@@ -10,7 +10,7 @@ jobs:
 
     env:
       NEXT_PUBLIC_URL: https://martimpassos.github.io
-      NEXT_PUBLIC_BASE_PATH: /sebastiaolacerda
+      NEXT_PUBLIC_BASE_PATH: /sebastiao-lacerda-canopy
 
     strategy:
       matrix:
