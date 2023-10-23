@@ -1,7 +1,3 @@
-import { ArrowRightIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
-
-import Button from "../components/Shared/Button/Button";
-import { ButtonWrapper } from "../components/Shared/Button/Button.styled";
 import { CanopyEnvironment } from "@customTypes/canopy";
 import Container from "@components/Shared/Container";
 import FACETS from "@.canopy/facets.json";
