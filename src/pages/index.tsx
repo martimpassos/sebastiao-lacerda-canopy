@@ -50,32 +50,21 @@ const Index: React.FC<IndexProps> = ({ featuredItem, collections }) => {
         <Hero collection={hero} />
       </HeroWrapper>
       <Container>
-        <Heading as="h2">About Canopy</Heading>
+        <Heading as="h2">Sobre a coleção</Heading>
         <div>
           <p>
-            <strong>Canopy IIIF</strong> is a purely{" "}
-            <a href="https://iiif.io/">IIIF</a> sourced site generator using
-            Next.js. Canopy is an experimental application that will standup a
-            browseable and searchable digital collections style site entirely
-            from a{" "}
-            <a href="https://iiif.io/api/presentation/3.0/#51-collection">
-              IIIF Collection
-            </a>{" "}
-            and the resources it references.
+          Nos anos 1960, quando governava o Estado da Guanabara, Carlos Lacerda (1914-1977) ganhou, 
+          não se sabe de quem, uma mala cheia de negativos fotográficos de vidro, além de imagens impressas.
+          Eram registros raros do Rio em sua belle époque –o período entre 1902 e 1930–, fase de grandes 
+          transformações urbanas na então capital do país. Após anos esquecido e inacessível ao público, 
+          esse material foi comprado no fim de 2016 pelo IMS (Instituto Moreira Salles) e agora está disponível 
+          para consulta. A estrela do acervo é o morro do Castelo, berço da fundação do Rio, que ficava na região 
+          central. Cerca de 40% das imagens retratam o cotidiano de seus habitantes e sua demolição, nos anos 1920.
+          - Marco Aurélio Canônico,{" "}
+          <a href="https://www1.folha.uol.com.br/ilustrada/2017/01/1854362-acervo-de-carlos-lacerda-com-fotos-da-belle-epoque-carioca-sera-digitalizado.shtml">
+          Folha de São Paulo
+          </a>.
           </p>
-          <ButtonWrapper>
-            <Button href="/about" buttonType="primary">
-              Read More &nbsp;
-              <ArrowRightIcon />
-            </Button>
-            <Button
-              href="https://github.com/canopy-iiif/canopy-iiif"
-              buttonType="secondary"
-            >
-              View Code &nbsp;
-              <GitHubLogoIcon />
-            </Button>
-          </ButtonWrapper>
         </div>
         <Related
           collections={collections}

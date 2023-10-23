@@ -1,0 +1,28 @@
+{
+  "prod": {
+    "label": { "none": ["Coleção Sebastião Lacerda"] },
+    "summary": {
+      "none": [
+        "a IIIF Collection sourced site generator in Next.js for digital collections, humanities, and exhibitions"
+      ]
+    },
+    "collection": "https://sebastiao-lacerda.vercel.app/",
+    "featured": [
+      "https://sebastiao-lacerda.vercel.app/32484260/manifest.json"
+    ],
+    "metadata": ["Data", "Tipo", "Autoria"]
+  },
+  "dev": {
+    "label": { "none": ["Coleção Sebastião Lacerda"] },
+    "summary": {
+      "none": [
+        "a IIIF Collection sourced site generator in Next.js for digital collections, humanities, and exhibitions"
+      ]
+    },
+    "collection": "http://127.0.0.1:8080/iiif/index.json",
+    "featured": [
+      "http://127.0.0.1:8080/iiif/32484260/manifest.json"    
+    ],
+    "metadata": ["Data", "Tipo", "Autoria"]
+  }
+}
