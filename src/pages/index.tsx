@@ -56,7 +56,7 @@ const Index: React.FC<IndexProps> = ({ featuredItem, collections }) => {
           esse material foi comprado no fim de 2016 pelo IMS (Instituto Moreira Salles) e agora está disponível 
           para consulta. A estrela do acervo é o morro do Castelo, berço da fundação do Rio, que ficava na região 
           central. Cerca de 40% das imagens retratam o cotidiano de seus habitantes e sua demolição, nos anos 1920.
-          - Marco Aurélio Canônico,{" "}
+          <br />- Marco Aurélio Canônico, extraído de{" "}
           <a href="https://www1.folha.uol.com.br/ilustrada/2017/01/1854362-acervo-de-carlos-lacerda-com-fotos-da-belle-epoque-carioca-sera-digitalizado.shtml">
           Folha de São Paulo
           </a>.
