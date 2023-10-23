@@ -87,7 +87,7 @@ const Map: React.FC<MapProps> = ({ manifests }) => {
                   icon={icon}
                   key={index}
                 >
-                  <Popup>
+                  <Popup minWidth={item.thumbnail[0].width}>
                     <figure>
                       <Link href={item.slug}>
                         <Thumbnail thumbnail={item.thumbnail} />{" "}
