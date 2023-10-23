@@ -21,9 +21,7 @@ async function createCollection(iiifResources, label = "") {
 async function createItem(resource) {
   const item = MANIFESTS.find((item) => item.id === resource.id);
   if (item?.slug) {
-    console.log(resource)
     const { best } = await getRepresentativeImage(resource, 2000);
-    console.log(best)
     return {
       id: resource.id,
       label: resource.label,
