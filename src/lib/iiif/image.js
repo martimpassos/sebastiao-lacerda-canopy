@@ -11,7 +11,6 @@ const getService = async (service, preferredWidth = 1200) => {
         ? b
         : a;
     });
-    console.log('Width, height:', width, height)
     return {
       id: `${service["id"]}/full/${width},${height}/0/default.jpg`,
       width: width,
@@ -29,7 +28,6 @@ exports.getRepresentativeImage = async (resource, preferredSize = 1200) => {
     firstCanvas.body.service[0],
     preferredSize
   );
-  console.log('firstCanvasService:', firstCanvasService)
   if (firstCanvasService) {
     return {best:
       {
