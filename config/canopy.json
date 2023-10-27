@@ -6,7 +6,7 @@
         "a IIIF Collection sourced site generator in Next.js for digital collections, humanities, and exhibitions"
       ]
     },
-    "collection": "https://sebastiao-lacerda.vercel.app/",
+    "collection": "https://anna-amelia-iiif.vercel.app/",
     "featured": [
       "https://sebastiao-lacerda.vercel.app/32484260/manifest.json",
       "https://sebastiao-lacerda.vercel.app/33514315/manifest.json",
