@@ -28,6 +28,7 @@
     "@radix-ui/themes": "^1.1.2",
     "@samvera/clover-iiif": "^2.1.1",
     "@stitches/react": "^1.2.8",
+    "@vercel/analytics": "^1.1.1",
     "axios": "^0.24.0",
     "clsx": "^1.1.1",
     "copy-to-clipboard": "^3.3.3",

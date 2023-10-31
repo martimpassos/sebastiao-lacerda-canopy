@@ -12,6 +12,7 @@ import { canopyManifests } from "@lib/constants/canopy";
 import { createCollection } from "../lib/iiif/constructors/collection";
 import { getRelatedFacetValue } from "../lib/iiif/constructors/related";
 import { useCanopyState } from "@context/canopy";
+import { Analytics } from '@vercel/analytics/react';
 
 interface IndexProps {
   featuredItem: any;
@@ -67,6 +68,7 @@ const Index: React.FC<IndexProps> = ({ featuredItem, collections }) => {
           title={LocaleString("homepageHighlightedWorks")}
         />
       </Container>
+      <Analytics />
     </Layout>
   );
 };
